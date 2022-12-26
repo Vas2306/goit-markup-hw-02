@@ -1,0 +1,24 @@
+:root{
+    --color-text-white: #FFFFFF;
+    --background-color-hero-footer: #2F303A;
+    --background-color: #F5F5F5;
+    --color-acent:#2196F3;
+    --color-black-logo: #000000;    
+    --color-title: #212121;   
+    --color-text: #757575;
+    --color-button-team: #F5F4FA;
+    --color-footer-telefon: rgba(255, 255, 255, 0.6); 
+}
+body{
+    background-color: var(--background-color);
+    color: var(--color-text);
+}
+.list {
+    list-style: none;
+}
+/* Секция Герой */
+/* Качества наших работников */
+/* Чем мы занимаемся */
+/* Наша команда */
+/* Список кнопок */
+/* Портфолио работ */
