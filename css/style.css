@@ -34,15 +34,45 @@ span {
     color: var(--color-acent);
 }
 .auth-nav .link {
-    color: #757575;
+    color: var(--color-text);
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--color-acent);
 }
+/* Общее для всех секций */
+.section-title {
+    color: var(--color-title);
+}
 /* Секция Герой */
+.hero-title {
+    color: var(--color-text-white);
+}
 /* Качества наших работников */
+.skill-list .title {
+    color: var(--color-title);
+}
 /* Чем мы занимаемся */
 /* Наша команда */
-/* Список кнопок */
+.team-list .title {
+    color: var(--color-title);
+}
+/* Список кнопок для портфолио*/
 /* Портфолио работ */
+.portfolio-list .title {
+    color: var(--color-title);
+}
+/* Кнопки */
+.button {
+    color: var(--color-text-white);
+    background-color: var(--color-acent);
+}
+.button-grey {
+    color: var(--color-title);
+    background-color: var(--color-button-team);
+}
+.button-grey:hover,
+.button-grey:focus {
+    color: var(--color-text-white);
+    background-color: var(--color-acent);
+}
