@@ -2,7 +2,7 @@
     --color-text-white: #FFFFFF;
     --background-color-hero-footer: #2F303A;
     --background-color: #F5F5F5;
-    --color-acent:#2196F3;
+    --color-acent: #2196F3;
     --color-black-logo: #000000;    
     --color-title: #212121;   
     --color-text: #757575;
@@ -15,6 +15,30 @@ body{
 }
 .list {
     list-style: none;
+}
+/* Хедер */
+.logo {
+    color: var(--color-black-logo);
+}
+span {
+    color: var(--color-acent);
+}
+.site-nav .link {
+    color: var(--color-title);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--color-acent);
+}
+.site-nav .link.current {
+    color: var(--color-acent);
+}
+.auth-nav .link {
+    color: #757575;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--color-acent);
 }
 /* Секция Герой */
 /* Качества наших работников */
