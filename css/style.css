@@ -62,6 +62,10 @@ span {
 /* Общее для всех секций */
 .section-title {
     color: var(--color-title);
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 /* Секция Герой */
 .hero {
@@ -88,7 +92,17 @@ span {
 /* Качества наших работников */
 .skill-list .title {
     color: var(--color-title);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+.skill-list .text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;  
+}
+
 /* Чем мы занимаемся */
 /* Наша команда */
 .team-list .title {
