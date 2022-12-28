@@ -114,12 +114,29 @@ span {
     font-weight: 500;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 .team-list .text {
     line-height: 1.19;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 /* Список кнопок для портфолио*/
+.button-grey {
+    color: var(--color-title);
+    background-color: var(--color-button-team);
+    font-weight: 500;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.button-grey:hover,
+.button-grey:focus {
+    color: var(--color-text-white);
+    background-color: var(--color-acent);
+}
 /* Портфолио работ */
 .portfolio-link {
     text-decoration: none;
@@ -140,12 +157,28 @@ span {
     color: var(--color-text-white);
     background-color: var(--color-acent);
 }
-.button-grey {
-    color: var(--color-title);
-    background-color: var(--color-button-team);
-}
-.button-grey:hover,
-.button-grey:focus {
+/* Footer */
+.footer .logo {
     color: var(--color-text-white);
-    background-color: var(--color-acent);
+}
+.footer {
+    background-color: var(--background-color-hero-footer);
+}
+.address {
+    color: var(--color-text-white);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.address .link {
+    color: var(--color-footer-telefon);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.address .link:hover,
+.address .link:focus {
+    color: var(--color-acent);
 }
