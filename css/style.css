@@ -15,6 +15,7 @@ body{
 
     font-family: 'Roboto', sans-serif;
 }
+/* Убираем точки у списков */
 .list {
     list-style: none;
 }
@@ -105,14 +106,35 @@ span {
 
 /* Чем мы занимаемся */
 /* Наша команда */
+.section-team {
+    background-color: var(--color-button-team);
+}
 .team-list .title {
     color: var(--color-title);
+    font-weight: 500;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.team-list .text {
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 /* Список кнопок для портфолио*/
 /* Портфолио работ */
+.portfolio-link {
+    text-decoration: none;
+}
 .portfolio-list .title {
     color: var(--color-title);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;  
 }
+.portfolio-list .text {
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
 /* Кнопки */
 .button {
     color: var(--color-text-white);
